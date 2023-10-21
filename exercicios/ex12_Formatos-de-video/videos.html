@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Incluindo Videos em HTML5</h1>
+
+    <h2>Incluindo Videos hospedados localmente</h2>
+    <h3>Opção simples de inclusão de video em HTML5</h3>
+    <video src="midia/videoExemplo.mp4" width="560px" poster="img/capa-video.png" controls muted autoplay loop></video>
+
+    <h3>Opção mais completa de inclusão de video</h3>
+    <p>Essa opção é mais completa pois inclui variações de extenção de videos para respeitar a compatibilidade dos navegadores e não correr o risco de não aparecer o video as extenções são = ".mp4 - .m4v - .webm - .ogv - .mkv"</p>
+    <video width="560px" poster="img/capa-video.png" controls muted autoplay loop>
+        <source src="midia/videoExemplo.mp4" type="video/mp4">
+        <source src="midia/Videoexemplo.mkv" type="video/mkv">
+        <source src="midia/Videoexemplo.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodutores de vídeo</p>
+    </video>
+
+    <h2>Incluindo Videos do Youtube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y?si=Pl3RS5HxBUI2v0o9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>midias em HTML5</title>
+</head>
+<body>
+    <h1>Como Incluir Imagens Dinamicas e Audios</h1>
+    <h2>Imagens Dinamicas</h2>
+    <p>Tente abrir esse site em vvarios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/img-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="img/img-M.png" type="image/png">
+        <img src="img/img-G.png" alt="Imagem flexível">
+    </picture>
+
+    <h2>Audios</h2>
+    <h3>Vamos aprender a reproduzir áudios em HTML5</h3>
+    <h4>Esta é a primeira maneira de incluir um audio</h4>
+    
+
+    <audio src="audio/Diego_VictorHugo_RaíSaiaRodada-Pisadinha(MP3_128K).mp3" controls autoplay></audio>
+    
+    <h4>Esta é a segunda maneira de carregar um audio</h4>
+
+    <audio preload="metadata" autoplay controls loop>
+        <!-- Cada audio abaixo seguiria uma variação do audio principal -->
+        <source src="audio/Diego_VictorHugo_RaíSaiaRodada-Pisadinha(MP3_128K).mp3" type="audio/mpeg">
+        <source src="audio/Diego_VictorHugo_RaíSaiaRodada-Pisadinha(MP3_128K)" type="audio/ogg">
+        <source src="audio/Diego_VictorHugo_RaíSaiaRodada-Pisadinha(MP3_128K).wav" type="audio/wav">
+    </audio>
+</body>
+</html>
