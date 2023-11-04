@@ -37,6 +37,6 @@ p .description{
 <p class="description">Exercício e Anotações do Curso HTML e CSS3 do Gustavo Guanabara</p>
 
 <ul>
-<li><a href="https://wandersonhrodrigues.github.io/Curso-HTML-Guanabara/desafios/ex017_desafio/des010" target="_blank">Acesse => Desafio 17 Historia do Android</a></li>
+<li>Acesse => <a href="https://wandersonhrodrigues.github.io/Curso-HTML-Guanabara/desafios/ex017_desafio/des010" target="_blank">Desafio 17 Historia do Android</a></li>
 </ul>
 </container><!--    conteudo    -->
