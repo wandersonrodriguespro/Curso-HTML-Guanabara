@@ -1,0 +1,35 @@
+//  ajuste fundo =>
+
+background-position:
+background-repeat:
+background-size:
+background-clip:
+background-origin:
+background-attachment: fixed para fixar o fundo
+
+//  Shorthand  - background
+
+ordem:
+
+color > imagem > position > repeat > size >attachment
+
+
+//  ALINHAMENTO VERTICAL
+
+propriedade usadas
+
+no container => position relative
+no elemento => position absolute + top + left + transform
+
+EXEMPLO => 
+
+.container{
+    position: relative;
+}
+
+.elemento{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
