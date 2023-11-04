@@ -28,13 +28,13 @@ container.conteudo {
     flex-direction: column;
     margin: 33px 3%;
 }
-p {
-    margin-botton: 25px;
+p .description{
+    margin-botton: 40px;
 }
 </style>
 
 <container class="conteudo">
-<p>Exercício e Anotações do Curso HTML e CSS3 do Gustavo Guanabara</p>
+<p class="description">Exercício e Anotações do Curso HTML e CSS3 do Gustavo Guanabara</p>
 
 <a href="https://wandersonhrodrigues.github.io/Curso-HTML-Guanabara/desafios/ex017_desafio/des010" target="_blank">Acesse => Desafio 17 Historia do Android</a>
 </container><!--    conteudo    -->
