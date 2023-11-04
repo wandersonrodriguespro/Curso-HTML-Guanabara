@@ -8,12 +8,12 @@ body {
 .container-lg.px-3.my-5.markdown-body {
     background-color: black;
     color: white;
-    padding: 100px 40px;
+    padding: 50px 40px;
     box-shadow: 0px 0px 20px black;
     border-radius: 15px;
 }
 
-h1{
+h1#curso-html-guanabara{
     text-align: center;
     padding-bottom: 40px;
 }
@@ -21,6 +21,12 @@ h1{
 a {
     font-weight: 800;
     color: #e58b16;
+}
+container.conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin: 33px 3%;
 }
 </style>
 
