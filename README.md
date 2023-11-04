@@ -14,6 +14,7 @@ body {
 }
 
 h1#curso-html-guanabara{
+    font-size: 1.8em;
     text-align: center;
     padding-bottom: 40px;
 }
