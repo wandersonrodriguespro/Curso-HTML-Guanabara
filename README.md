@@ -26,8 +26,10 @@ a {
 container.conteudo {
     display: flex;
     flex-direction: column;
-    gap: 25px;
     margin: 33px 3%;
+}
+p {
+    margin-botton: 25px;
 }
 </style>
 
