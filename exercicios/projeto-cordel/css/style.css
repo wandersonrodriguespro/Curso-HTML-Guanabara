@@ -36,16 +36,17 @@ header h1{
 header p{
     font-size: 3vh;
 }
-header a{
+a{
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
-header a:hover{
+a:hover{
     text-decoration: underline;
 }
 
 section{
+    background-color: white;
     padding: 10vh 3%;
     line-height: 2em;
     padding-left: 40px;
@@ -62,8 +63,37 @@ section .normal{
     color: black;
 }
 
+
 #img01{
     background-image: url(../img/background001.jpg);
     background-size: cover;
-    background-position: fixed;
+    background-position: right center;
+    background-attachment:fixed
+}
+#img01 p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+}
+
+#img02{
+    background-image: url(../img/background002.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img02 p{
+    background-color: rgba(0, 0, 0, 0.514);
+    color: white;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+footer{
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+    color: white;
 }
