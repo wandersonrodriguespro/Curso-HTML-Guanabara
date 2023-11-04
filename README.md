@@ -1,3 +1,4 @@
+# Curso-HTML-Guanabara
 <style>
 
 body {
@@ -29,8 +30,6 @@ container.conteudo {
     margin: 33px 3%;
 }
 </style>
-
-# Curso-HTML-Guanabara
 
 <container class="conteudo">
 <p>Exercício e Anotações do Curso HTML e CSS3 do Gustavo Guanabara</p>
