@@ -32,7 +32,7 @@ container.conteudo {
 </style>
 
 <container class="conteudo">
-<h1>Exercício e Anotações do Curso HTML e CSS3 do Gustavo Guanabara</h1>
+<p>Exercício e Anotações do Curso HTML e CSS3 do Gustavo Guanabara</p>
 
 <a href="https://wandersonhrodrigues.github.io/Curso-HTML-Guanabara/desafios/ex017_desafio/des010" target="_blank">Acesse => Desafio 17 Historia do Android</a>
 </container><!--    conteudo    -->
