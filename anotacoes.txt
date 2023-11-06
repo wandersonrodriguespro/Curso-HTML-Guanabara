@@ -33,3 +33,45 @@ EXEMPLO =>
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+    //    TABELA  =>
+
+Esturtura da Tabela Simples:
+
+
+
+
+TABLE = Tabela
+    TABLE ROW = Linha da Tabela
+        TABLE HEADER = Cabeça da Tabela
+        TABLE DATA = Dado da Tabela
+
+
+table =>            é a Tag começar a criar uma Tabela
+tr (Table Row) =>   é a Tag para criar linha na Tabela
+td (Table Data) =>  é a Tag para criar Dados na Tabela
+
+
+
+Alinhamento em celulas:
+
+vertical-align => Alina na vertical
+text-align => Alinha na horizontal
+
+
+
+
+
+Estrutura Tabelas Grandes:
+
+Table
+    thead   <   Cabeçalho da Tabela  >
+        tr, td, th
+        
+    Tbody   <   Corpo da Tabela     >
+        tr, td, th
+
+    Tfoot   <   Footer da Tabela    >
+        tr, td, th
+
