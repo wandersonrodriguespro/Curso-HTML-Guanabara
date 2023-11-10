@@ -65,6 +65,7 @@ text-align => Alinha na horizontal
 
 Estrutura Tabelas Grandes:
 
+Caption
 Table
     thead   <   Cabeçalho da Tabela  >
         tr, td, th
@@ -75,3 +76,35 @@ Table
     Tfoot   <   Footer da Tabela    >
         tr, td, th
 
+
+Tag scope => A tag scope informa a linha ou coluna dos Dados
+
+Scope="col"  => se refere a coluna
+scope="row"  => se refere a linha
+
+
+Efeito zebrado em tabela:
+
+para fazer o efeito zebrado usa-se o nth-child()
+entre os parentes coloca de quantas em quantas linhas é para pular a Cor
+
+EXEMPLO ==>
+
+tbody > tr:nth-child(2n){
+            background-color: lightgrey;
+        }
+
+Neste exemplo a cor alterna de 2 em 2 linha(Efeito normal de uma tabela zebrada)
+
+Outra parametro que pode ser usado entre os parenteses é o "odd" que significa impar ou o "even" que significa par
+
+EXEMPLO ==>
+    tbody > tr:nth-child(odd) {
+        background-color: lightgrey;
+    }
+
+    OU
+    
+    tbody > tr:nth-child(even) {
+        background-color: lightgrey;
+    }

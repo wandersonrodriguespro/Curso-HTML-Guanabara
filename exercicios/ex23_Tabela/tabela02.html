@@ -24,6 +24,12 @@
             background-color: grey;
             color: white;
         }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
 
         td, th{
             border: 1px solid black;
@@ -35,6 +41,10 @@
         }
         .nun{
             text-align: right;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgrey;
         }
     </style>
 </head>
@@ -55,10 +65,11 @@
     -->
 
     <table>
+        <caption>Populção das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
             </tr>
         </thead>
 
@@ -175,7 +186,7 @@
 
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th socpe="row">Total de Habitantes</th>
                 <td class="nun"><strong>161.254.981</strong></td>
             </tr>
 
