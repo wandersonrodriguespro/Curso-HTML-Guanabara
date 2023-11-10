@@ -54,7 +54,8 @@ td (Table Data) =>  é a Tag para criar Dados na Tabela
 
 
 
-Alinhamento em celulas:
+
+//// Alinhamento em celulas:
 
 vertical-align => Alina na vertical
 text-align => Alinha na horizontal
@@ -63,7 +64,8 @@ text-align => Alinha na horizontal
 
 
 
-Estrutura Tabelas Grandes:
+
+//// Estrutura Tabelas Grandes:
 
 Caption
 Table
@@ -83,7 +85,10 @@ Scope="col"  => se refere a coluna
 scope="row"  => se refere a linha
 
 
-Efeito zebrado em tabela:
+
+
+
+/// Efeito zebrado em tabela:
 
 para fazer o efeito zebrado usa-se o nth-child()
 entre os parentes coloca de quantas em quantas linhas é para pular a Cor
@@ -108,3 +113,18 @@ EXEMPLO ==>
     tbody > tr:nth-child(even) {
         background-color: lightgrey;
     }
+
+
+
+
+///  MASCLAGEM DE TABELA ==>
+
+
+Para mesclar colula usa-se a tag colspan dentro da tag td da coluna
+
+EXEMPLO=> <td colspan="2">A</td>
+
+
+Para mesclar linhas usa-se a tag rowspan dentro da tag td da linha
+
+EXEMPLO=> <td rowspan="3">D</td>
