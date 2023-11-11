@@ -185,3 +185,22 @@ col.cnome {
 
 ===========================================================
 
+/// IFRAME
+
+Tamanho padrão do iframe => 300 X 150
+Para estilizar o iframe da para fazer da para estilizar na tag com os tags de tamanho sem utilizar o style
+No css da para estilizar e sempre vai ser soberano ao estilo incluso no iframe
+
+O frameborder é responsável pelas bordas e pode ser estilizado por css tbm
+A tag scolling inclui ou retira o scroll do iframe, porem as vexes não funciona nos navegadore
+
+
+Sempre é bom colocar um aviso ou um link entre as tags de iframe pois existe navegadores que não são compativeis e assim quando não aparecer o iframe aparece o link e ou a mensagem para onode você quer encaminhar
+
+Exemplo ===>
+
+<p>Acessando o site do 
+    <iframe src="https://www.cursoemvideo.com" frameborder="0">
+        <a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a>  <!--Este link só aparece se o navegador não for compativel-->
+    </iframe> para aprender programar
+</p>
