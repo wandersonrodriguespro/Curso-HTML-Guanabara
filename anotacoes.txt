@@ -206,7 +206,7 @@ Exemplo ===>
 </p>
 
 
-/// NAVEGAÇÃO POR IFRAME
+=============== /// NAVEGAÇÃO POR IFRAME
 
 Para uzar a navegação no iframe é preciso declarar um name para ele
 Apos dedclarar o name você chama ele no link que quer utilizar para acessar o iframe
@@ -224,3 +224,11 @@ Exemplo Usando Lista ==>
     <li><a href="./pgExtras/pg002.html" target="frame">Segunda Página</a></li>
     <li><a href="./pgExtras/pg003.html" target="frame">Terceira Página</a></li>
 </ul>
+
+
+=========== /// Conteúdo no iframe por código
+
+Para incluir conteudo por codigo no iframe basta usar a tag srcdoc
+
+Exemplo ==>
+
