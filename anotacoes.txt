@@ -7,6 +7,11 @@ background-clip:
 background-origin:
 background-attachment: fixed para fixar o fundo
 
+
+===================================================
+
+
+
 //  Shorthand  - background
 
 ordem:
@@ -35,6 +40,11 @@ EXEMPLO =>
 }
 
 
+
+===================================================
+
+
+
     //    TABELA  =>
 
 Esturtura da Tabela Simples:
@@ -54,6 +64,8 @@ td (Table Data) =>  é a Tag para criar Dados na Tabela
 
 
 
+===================================================
+
 
 //// Alinhamento em celulas:
 
@@ -62,7 +74,7 @@ text-align => Alinha na horizontal
 
 
 
-
+===================================================
 
 
 //// Estrutura Tabelas Grandes:
@@ -85,7 +97,7 @@ Scope="col"  => se refere a coluna
 scope="row"  => se refere a linha
 
 
-
+===================================================
 
 
 /// Efeito zebrado em tabela:
@@ -114,7 +126,7 @@ EXEMPLO ==>
         background-color: lightgrey;
     }
 
-
+===================================================
 
 
 ///  MASCLAGEM DE TABELA ==>
@@ -128,3 +140,48 @@ EXEMPLO=> <td colspan="2">A</td>
 Para mesclar linhas usa-se a tag rowspan dentro da tag td da linha
 
 EXEMPLO=> <td rowspan="3">D</td>
+
+
+===================================================
+
+// SCOPO
+
+Scop é feito somente em TH
+Ele serve para mostrar em que sentido esta os dados daquele TH
+
+===> scope="col" => Usado quando o scope (Dados) esta em na coluna
+===> Scope="row" => Usado quando o scope (Dados) esta em linha
+
+===> scope="colgroup" => Usado em celulas mescladas quando os dados está em colunas e existe mais de uma coluna com dados 
+
+===> scope="rowgroup" => Usado em celulas mescladas quando os dados esta em linhas e existe mais de uma linha com dados
+
+
+
+====================================================
+
+
+/// AGRUPAR COLUNAS
+
+
+Para agrupar colunas e podedr estilizar mais facilmente usa-se a tag colgroup na tabela
+
+EXEMPLO ==>
+
+<colgroup>
+    <col class="cnome">
+    <col class="csexo">
+    <col class="cidade">
+    <col class="cprof">
+</colgroup>
+
+Assim consigo estilizar por exemplo a coluna nome com uma cor ded destaque:
+
+col.cnome {
+    background-color: creen;
+}
+
+
+
+===========================================================
+
