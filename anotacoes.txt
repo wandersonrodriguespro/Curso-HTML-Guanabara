@@ -226,9 +226,42 @@ Exemplo Usando Lista ==>
 </ul>
 
 
+
+
 =========== /// Conteúdo no iframe por código
+
 
 Para incluir conteudo por codigo no iframe basta usar a tag srcdoc
 
 Exemplo ==>
 
+<iframe name="frame" srcdoc="<h1 style='text-align: center;'>Escolha Umas Das Opções Acima</h1><p style='text-align: center;'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, dolorum sunt. Illo odit eius accusamus veritatis quas amet molestiae. Voluptates temporibus numquam quis quidem, aut dolorem fugit quasi architecto ipsam omnis quia neque magnam officiis</p>">
+</iframe>
+
+
+
+
+=========== /// Tornar o iframe Seguro
+
+sandbox="sandbox"
+referrerpolicy="no-referrer"
+
+Esses dois atributos juntos liga o maximo de segurança no iframe
+
+Exemplo ==>
+
+<iframe src="pgExtras/pg004-form.html" frameborder="0" width="500" height="150" sandbox="sandbox" referrerpolicy="no-referrer">
+    Seu navegador não é compativel com iframe...
+</iframe>
+
+Se quiser liberar por exemplo um iframe local e um formulário para captura usa-se os atributos:
+
+sandbox="allow-same-origin" => Libera o iframe para conteudo interno
+sandbox="allow-form" => libera o formulário
+sandbox="allow-script" => libera os scripts que tbm são usados no formulário
+
+Exemplo de uso ==>
+
+ <iframe src="pgExtras/pg004-form.html" frameborder="0" width="500" height="150" sandbox="allow-same-origin allow-forms allow-scripts" referrerpolicy="no-referrer">
+   Seu navegador não é compativel com iframe...
+</iframe>
