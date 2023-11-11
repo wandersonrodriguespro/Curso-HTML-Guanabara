@@ -204,3 +204,23 @@ Exemplo ===>
         <a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a>  <!--Este link só aparece se o navegador não for compativel-->
     </iframe> para aprender programar
 </p>
+
+
+/// NAVEGAÇÃO POR IFRAME
+
+Para uzar a navegação no iframe é preciso declarar um name para ele
+Apos dedclarar o name você chama ele no link que quer utilizar para acessar o iframe
+
+Exemplo ==>
+
+<iframe name="frame" src=""></iframe>
+
+Para eu incluir um conteudo neste iframe basta eu usar o name "frame" no target do link e o conteudo vai surgir dentro deste iframe
+
+Exemplo Usando Lista ==>
+
+<ul>
+    <li><a href="./pgExtras/pg001.html" target="frame">Primeira Página</a></li>
+    <li><a href="./pgExtras/pg002.html" target="frame">Segunda Página</a></li>
+    <li><a href="./pgExtras/pg003.html" target="frame">Terceira Página</a></li>
+</ul>
